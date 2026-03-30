@@ -19,3 +19,8 @@ docker-compose -p pref -f loadtest-compose.yml -f monitoring-compose.yml up -d
 ```bash
 docker-compose -p pref up -d
 ```
+
+## Docker container exec 
+```bash
+docker exec -it {container-name or container-id} sh
+```
