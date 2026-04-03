@@ -35,3 +35,8 @@ docker cp /file.txt container-name:/path/container
 ```bash
 docker cp container-name:/path/container /path/host 
 ```
+
+## Docker tag
+```bash
+docker tag source-image:tag target-image:tag
+```
