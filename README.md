@@ -25,3 +25,13 @@ docker-compose -p pref up -d
 ```bash
 docker exec -it {container-name or container-id} sh
 ```
+
+## Docker copy file (host to container) 
+```bash
+docker cp /file.txt container-name:/path/container 
+```
+
+## Docker copy file (container to host)
+```bash
+docker cp container-name:/path/container /path/host 
+```
