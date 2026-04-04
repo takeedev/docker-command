@@ -43,5 +43,5 @@ docker tag source-image:tag target-image:tag
 
 ## Docker import 
 ```bash
-docker load -i image:tag 
+docker load -i image.tar or docker load < file.tar.zip 
 ```
