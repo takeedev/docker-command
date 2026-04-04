@@ -41,7 +41,12 @@ docker cp container-name:/path/container /path/host
 docker tag source-image:tag target-image:tag
 ```
 
-## Docker import 
+## Docker import image to .tar 
 ```bash
 docker load -i image.tar or docker load < file.tar.zip 
+```
+
+## Docker save image to .tar
+```bash
+docker save -o filename.tar image-name:tag 
 ```
