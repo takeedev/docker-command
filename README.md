@@ -40,3 +40,8 @@ docker cp container-name:/path/container /path/host
 ```bash
 docker tag source-image:tag target-image:tag
 ```
+
+## Docker import 
+```bash
+docker load -i image:tag 
+```
