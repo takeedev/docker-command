@@ -3,9 +3,16 @@
 
 ## Start docker daemon
 ### linux
+```text
 sudo systemctl start docker.
+```
 ### mac
-docker desktop start *or* open -a Docker
+```text
+docker desktop start
+```
+```text
+open -a Docker
+```
 
 
 ## Start all service 
