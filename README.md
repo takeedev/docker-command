@@ -1,6 +1,13 @@
 # Docker compose usage
 [Link Docker Doc](https://docs.docker.com/reference/cli/docker/)
 
+## Start docker daemon
+### linux
+sudo systemctl start docker.
+### mac
+docker desktop start *or* open -a Docker
+
+
 ## Start all service 
 ```bash
 docker-compose up -d
