@@ -4,14 +4,17 @@
 ## Start docker daemon
 ### linux
 ```text
-sudo systemctl start docker.
+sudo systemctl start docker
+sudo systemctl stop docker
 ```
 ### mac
 ```text
 docker desktop start
+docker desktop stop 
 ```
 ```text
 open -a Docker
+killall
 ```
 
 
